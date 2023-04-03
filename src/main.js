@@ -1,5 +1,11 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import VInput from './components/VInput.vue'
 
-createApp(App).mount('#app')
+export {
+    VInput
+}
+
+export default {
+    install(app, options) {
+        app.component('VInput', VInput)
+    }
+}
