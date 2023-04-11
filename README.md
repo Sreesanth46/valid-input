@@ -18,7 +18,7 @@ import "@harv46/valid-input/dist/style.css";
 
 ## Basic usage
 
-```
+```js
 <template>
     <div>
         <VInput v-model="inputValue" :validationType="`email`">Email</VInput>
@@ -45,31 +45,15 @@ export default {
 
 ### Props
 
-```
-    minLength: {
-        default: 0,
-    },
-
-    maxLength: {
-        default: 500,
-    },
-
-    required: {
-        type: Boolean,
-        default: false,
-    },
-
-    validationType: {
-        type: String,
-    },
-
-    regex: {},
-
-    placeholder: {
-        type: String,
-    },
-
-```
+| Prop             | Description                                                                  | Default |
+| ---------------- | ---------------------------------------------------------------------------- | ------- |
+| `type`           | Input type                                                                   | `text`  |
+| `minLength`      | Minimum length validation                                                    | `0`     |
+| `maxLength`      | Maximum length validation                                                    | `500`   |
+| `required`       | Required validation                                                          | `false` |
+| `validationType` | Type of validation using                                                     |
+| `regex`          | Validation regex - if `validationType = 'regex'` See [usage](#regex-example) |
+| `placeholder`    | The input placeholder attribute                                              |
 
 ## validationType values
 
@@ -81,7 +65,7 @@ export default {
 
 ### Regex example
 
-```
+```js
 <template>
     <div>
         <VInput

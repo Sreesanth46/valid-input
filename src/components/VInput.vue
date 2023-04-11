@@ -4,6 +4,7 @@
         <input
             id="appInput"
             class="textbox"
+            :type="type"
             :value="modelValue"
             :placeholder="placeholder"
             @input="updateValue"
@@ -32,6 +33,11 @@ export default {
     props: {
         modelValue: {
             default: "",
+        },
+
+        type: {
+            type: String,
+            default: "text",
         },
 
         minLength: {
