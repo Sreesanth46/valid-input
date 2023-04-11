@@ -1,6 +1,14 @@
 <template>
     <div>
-        <VInput v-model="inputValue" :validationType="`email`">Email</VInput>
+        <VInput
+            v-model="inputValue"
+            :minLength="4"
+            :maxLength="10"
+            :placeholder="Username"
+            :validationType="`regex`"
+            :regex="/[a-z]+/g"
+            >Username</VInput
+        >
         {{ inputValue }}
     </div>
 </template>
