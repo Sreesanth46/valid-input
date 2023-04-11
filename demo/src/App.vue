@@ -1,6 +1,6 @@
 <template>
     <div>
-        <VInput v-model="inputValue" :validationType="`email`">Hey</VInput>
+        <VInput v-model="inputValue" :validationType="`email`">Email</VInput>
         {{ inputValue }}
     </div>
 </template>

@@ -8,7 +8,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(dirname(''), 'src/main.js'),
-            name: 'v-input',
+            name: 'VInput',
             fileName: (format) => `${format}.js`
         },
         rollupOptions: {
