@@ -42,5 +42,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/Sreesanth46/valid-input.git"
-    }
+    },
+    "license": "MIT"
 }
