@@ -2,6 +2,7 @@
     <div>
         <VInput
             v-model="inputValue"
+            :type="`password`"
             :minLength="4"
             :maxLength="10"
             :placeholder="Username"
