@@ -7,6 +7,7 @@
 
 <script>
 import { VInput } from "../../src/main";
+import "../../dist/style.css";
 
 export default {
     components: {
