@@ -46,6 +46,11 @@ export default {
 ### Props
 
 ```
+    type: {
+        type: String,
+        default: "text",
+    },
+
     minLength: {
         default: 0,
     },
