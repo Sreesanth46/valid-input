@@ -1,6 +1,13 @@
 <template>
-    <div>This is demo</div>
+    <div><VInput /></div>
 </template>
 
-<style scoped>
-</style>
+<script>
+import { VInput } from "../../src/main";
+
+export default {
+    components: {
+        VInput,
+    },
+};
+</script>
