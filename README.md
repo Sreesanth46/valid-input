@@ -1,5 +1,9 @@
 # valid-input
 
+This npm package includes an input box with built-in validation and displays errors.
+
+![Valid-Input demo](demo.gif)
+
 ## Installation
 
 ```
