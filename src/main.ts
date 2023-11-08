@@ -5,7 +5,7 @@ export {
 }
 
 export default {
-    install(app, options) {
+    install(app: any, options: any) {
         app.component('VInput', VInput)
     }
 }
