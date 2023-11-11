@@ -1,3 +1,4 @@
+import "./tailwind.css"
 import VInput from './components/VInput.vue'
 
 export {
